@@ -1,0 +1,72 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{03B3C45B-AD72-4D9F-AAF9-CF5F6526A2E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{652A0903-7623-4A38-833B-B40080489775}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Serverless", "Serverless", "{5B0E1E4A-72B3-4AC4-8C42-D02BD8A50AE6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{52D42490-0F74-4429-B174-B2F992AF9C08}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{9364DC09-6388-4B7C-B3E1-12F7C274F853}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{3F6166A1-B419-468C-AAC7-DE623363BEBB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TransfloExpress.FuelPortal.Domain", "TransfloExpress.FuelPortal.Domain\TransfloExpress.FuelPortal.Domain.csproj", "{B99A3937-E736-45B9-BAE6-232885C98A70}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TransfloExpress.FuelPortal.Application", "TransfloExpress.FuelPortal.Application\TransfloExpress.FuelPortal.Application.csproj", "{E39DC2DD-55F7-4A12-A512-7C010E28527F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TransfloExpress.FuelPortal.Persistence", "TransfloExpress.FuelPortal.Persistence\TransfloExpress.FuelPortal.Persistence.csproj", "{21238853-BD7C-44D7-AFC3-C7323D839223}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransfloExpress.FuelPortal.Infrastructure", "TransfloExpress.FuelPortal.Infrastructure\TransfloExpress.FuelPortal.Infrastructure.csproj", "{FF55CD60-BC75-405C-8031-05713197F1B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransfloExpress.FuelPortal.API", "TransfloExpress.FuelPortal.API\TransfloExpress.FuelPortal.API.csproj", "{016D8C77-5767-4F70-A9A3-E0FE188B8561}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B99A3937-E736-45B9-BAE6-232885C98A70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B99A3937-E736-45B9-BAE6-232885C98A70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B99A3937-E736-45B9-BAE6-232885C98A70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B99A3937-E736-45B9-BAE6-232885C98A70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E39DC2DD-55F7-4A12-A512-7C010E28527F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E39DC2DD-55F7-4A12-A512-7C010E28527F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E39DC2DD-55F7-4A12-A512-7C010E28527F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E39DC2DD-55F7-4A12-A512-7C010E28527F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21238853-BD7C-44D7-AFC3-C7323D839223}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21238853-BD7C-44D7-AFC3-C7323D839223}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21238853-BD7C-44D7-AFC3-C7323D839223}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21238853-BD7C-44D7-AFC3-C7323D839223}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF55CD60-BC75-405C-8031-05713197F1B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF55CD60-BC75-405C-8031-05713197F1B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF55CD60-BC75-405C-8031-05713197F1B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF55CD60-BC75-405C-8031-05713197F1B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{016D8C77-5767-4F70-A9A3-E0FE188B8561}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{016D8C77-5767-4F70-A9A3-E0FE188B8561}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{016D8C77-5767-4F70-A9A3-E0FE188B8561}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{016D8C77-5767-4F70-A9A3-E0FE188B8561}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5B0E1E4A-72B3-4AC4-8C42-D02BD8A50AE6} = {03B3C45B-AD72-4D9F-AAF9-CF5F6526A2E8}
+		{52D42490-0F74-4429-B174-B2F992AF9C08} = {03B3C45B-AD72-4D9F-AAF9-CF5F6526A2E8}
+		{9364DC09-6388-4B7C-B3E1-12F7C274F853} = {03B3C45B-AD72-4D9F-AAF9-CF5F6526A2E8}
+		{3F6166A1-B419-468C-AAC7-DE623363BEBB} = {03B3C45B-AD72-4D9F-AAF9-CF5F6526A2E8}
+		{B99A3937-E736-45B9-BAE6-232885C98A70} = {52D42490-0F74-4429-B174-B2F992AF9C08}
+		{E39DC2DD-55F7-4A12-A512-7C010E28527F} = {52D42490-0F74-4429-B174-B2F992AF9C08}
+		{21238853-BD7C-44D7-AFC3-C7323D839223} = {9364DC09-6388-4B7C-B3E1-12F7C274F853}
+		{FF55CD60-BC75-405C-8031-05713197F1B8} = {9364DC09-6388-4B7C-B3E1-12F7C274F853}
+		{016D8C77-5767-4F70-A9A3-E0FE188B8561} = {3F6166A1-B419-468C-AAC7-DE623363BEBB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {960BE2EE-0E00-4178-8236-5A2A8AD3B9AC}
+	EndGlobalSection
+EndGlobal
